@@ -1,2 +1,2 @@
 # llm
-Lage language model
+Large language model
