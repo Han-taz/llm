@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "red-team-project"
+version = "0.1.0"
+description = ""
+authors = ["kevin <ftkevin@gmail.com>"]
+readme = "README.md"
+packages = [{include = "red_team_project", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.1.16"
+fastapi = "^0.110.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
